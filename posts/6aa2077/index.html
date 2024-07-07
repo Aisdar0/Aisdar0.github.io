@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"aisdar0.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="博客初始化Hexo-Next 主题博客个性化配置超详细，超全面(两万字) Hexo 博客 NexT 主题下如何添加分类、标签 博客上传1234hexo g # 生成hexo d # 部署hexo s # 本地查看  博客编写 创建文章  1hexo new [layout] &quot;文章名&quot;   插入图片  当前采取的方式是 文章内的图片均使用Github图床，完成文章时使用Typo">
+  <meta name="description" content="博客初始化Hexo-Next 主题博客个性化配置超详细，超全面(两万字) Hexo 博客 NexT 主题下如何添加分类、标签 博客上传1234hexo g # 生成hexo d # 部署hexo s # 本地查看  博客编写 创建文章  1hexo new [layout] &quot;文章名&quot;   插入图片  当前采取的方式是 文章内的图片在编写时均采用本地图片的相对路径，完成文章时使">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客维护方法">
 <meta property="og:url" content="https://aisdar0.github.io/posts/6aa2077/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="博客初始化Hexo-Next 主题博客个性化配置超详细，超全面(两万字) Hexo 博客 NexT 主题下如何添加分类、标签 博客上传1234hexo g # 生成hexo d # 部署hexo s # 本地查看  博客编写 创建文章  1hexo new [layout] &quot;文章名&quot;   插入图片  当前采取的方式是 文章内的图片均使用Github图床，完成文章时使用Typo">
+<meta property="og:site_name" content="Aisdar">
+<meta property="og:description" content="博客初始化Hexo-Next 主题博客个性化配置超详细，超全面(两万字) Hexo 博客 NexT 主题下如何添加分类、标签 博客上传1234hexo g # 生成hexo d # 部署hexo s # 本地查看  博客编写 创建文章  1hexo new [layout] &quot;文章名&quot;   插入图片  当前采取的方式是 文章内的图片在编写时均采用本地图片的相对路径，完成文章时使">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-07T05:16:09.000Z">
-<meta property="article:modified_time" content="2024-07-07T06:52:02.044Z">
+<meta property="article:modified_time" content="2024-07-07T07:01:04.836Z">
 <meta property="article:author" content="Aisdar">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>博客维护方法 | Hexo</title>
+  <title>博客维护方法 | Aisdar</title>
   
 
 
@@ -97,9 +97,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
+      <h1 class="site-title">Aisdar</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">Subtitle</p>
   </div>
 
   <div class="site-nav-right">
@@ -198,7 +199,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Aisdar">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -213,7 +214,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-07-07 13:16:09 / 修改时间：14:52:02" itemprop="dateCreated datePublished" datetime="2024-07-07T13:16:09+08:00">2024-07-07</time>
+              <time title="创建时间：2024-07-07 13:16:09 / 修改时间：15:01:04" itemprop="dateCreated datePublished" datetime="2024-07-07T13:16:09+08:00">2024-07-07</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -248,10 +249,13 @@
 <ul>
 <li>插入图片</li>
 </ul>
-<p>当前采取的方式是 文章内的图片均使用Github图床，完成文章时使用Typora+PicGo一键上传。它的好处是文章的迁移成本减低，并且可以在其他支持Markdown的网站一键发布。</p>
-<p>突突突</p>
+<p>当前采取的方式是 <strong>文章内的图片在编写时均采用本地图片的相对路径，完成文章时使用Typora+PicGo一键上传至图床(Github搭建)。</strong></p>
+<p>它的好处是①文章的迁移成本减低，并且可以在其他支持Markdown的网站一键发布。②使用图床一劳永逸，在写文章的时候修改&#x2F;删除图片等也不会上传多余的图片。</p>
+<p>Typora资源目录设置方法：文件-&gt;偏好设置-&gt;图像</p>
+<p>Typora+PicGo一键上传图床：格式-&gt;图像-&gt;上传所有本地图片</p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/2301_77285173/article/details/130189857">在hexo博客中插入图片的方法</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/xdnxl/article/details/129466060">如何用github搭建图床（亲测有效）</a></p>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/counting_stars123/article/details/104594693">Hexo 部署博客时本地预览和部署到github.io上效果不一样</a></p>
 
     </div>
 
@@ -325,7 +329,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">1.</span> <span class="nav-text">博客初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0"><span class="nav-number">2.</span> <span class="nav-text">博客上传</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99"><span class="nav-number">3.</span> <span class="nav-text">博客编写</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
