@@ -16,6 +16,7 @@
 <li>插入图片</li>
 </ul>
 <p>当前采取的方式是 文章内的图片均使用Github图床，完成文章时使用Typora+PicGo一键上传。它的好处是文章的迁移成本减低，并且可以在其他支持Markdown的网站一键发布。</p>
+<p>突突突</p>
 <p><a href="https://blog.csdn.net/2301_77285173/article/details/130189857">在hexo博客中插入图片的方法</a></p>
 <p><a href="https://blog.csdn.net/xdnxl/article/details/129466060">如何用github搭建图床（亲测有效）</a></p>
 ]]></content>
