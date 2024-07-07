@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/undefined/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>博客维护方法</title>
+    <url>/posts/6aa2077/</url>
+    <content><![CDATA[<h2 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h2><p><a href="https://blog.csdn.net/as480133937/article/details/100138838">Hexo-Next 主题博客个性化配置超详细，超全面(两万字)</a></p>
+<p><a href="https://www.cnblogs.com/cscshi/p/15196102.html">Hexo 博客 NexT 主题下如何添加分类、标签</a></p>
+<h2 id="博客上传"><a href="#博客上传" class="headerlink" title="博客上传"></a>博客上传</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo g # 生成</span><br><span class="line">hexo d # 部署</span><br><span class="line"></span><br><span class="line">hexo s # 本地查看</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="博客编写"><a href="#博客编写" class="headerlink" title="博客编写"></a>博客编写</h2><ul>
+<li>创建文章</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &quot;文章名&quot;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ul>
+<li>插入图片</li>
+</ul>
+<p>当前采取的方式是 文章内的图片均使用Github图床，完成文章时使用Typora+PicGo一键上传。它的好处是文章的迁移成本减低，并且可以在其他支持Markdown的网站一键发布。</p>
+<p><a href="https://blog.csdn.net/2301_77285173/article/details/130189857">在hexo博客中插入图片的方法</a></p>
+<p><a href="https://blog.csdn.net/xdnxl/article/details/129466060">如何用github搭建图床（亲测有效）</a></p>
 ]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
   </entry>
 </search>
